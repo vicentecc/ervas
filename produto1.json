@@ -1,31 +1,114 @@
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "name": "Executive Anvil",
-  "image": "http://www.example.com/anvil_executive.jpg",
-  "description": "Sleeker than ACME's Classic Anvil, the Executive Anvil is perfect for the business traveler looking for something to drop from a height.",
-  "mpn": "925872",
-  "brand": {
-    "@type": "Thing",
-    "name": "ACME"
+[
+  {
+    "@context": "http://schema.org/",
+    "@id":"http://www.shopervas.com/product/3366",
+    "url":"@id",
+    "@type": "Product",
+    "name": "Boldo-da-terra",
+    "image": "http://www.shopervas.com/imgs/boldo-1.jpg",
+    "description": "O chá de boldo é excelente para ajudar no funcionamento do fígado, sendo útil depois de um dia de exageros, excesso de álcool ou consumo de muitos alimentos gordurosos porque ele contém uma substância chamada lactona que auxilia na digestão das gorduras ingeridas.",
+    "productID": "3366",
+    "brand": {
+      "@type": "Thing",
+      "name": "shopervas"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "2"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "BRL",
+      "price": "12.5",
+      "availability": "http://schema.org/InStock"
+    },
+    "isSimilarTo":[
+        {
+        "@type":"Product",
+        "@id":"http://www.shopervas.com/product/7788",
+        "url":"@id",
+        "name": "Boldo Miúdo",
+        "image": "http://www.shopervas.com/imgs/boldo-1.jpg",
+        "description": "O chá de boldo é excelente para ajudar no funcionamento do fígado, sendo útil depois de um dia de exageros, excesso de álcool ou consumo de muitos alimentos gordurosos porque ele contém uma substância chamada lactona que auxilia na digestão das gorduras ingeridas.",
+        "productID": "7788",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "14.5",
+          "availability": "http://schema.org/InStock"}
+        },
+        {
+          "@type":"Product",
+          "@id":"http://www.shopervas.com/product/4455",
+          "url":"@id",
+          "name": "Boldo-do-chile",
+          "image": "http://www.shopervas.com/imgs/boldo-1.jpg",
+          "description": "O chá de boldo é excelente para ajudar no funcionamento do fígado, sendo útil depois de um dia de exageros, excesso de álcool ou consumo de muitos alimentos gordurosos porque ele contém uma substância chamada lactona que auxilia na digestão das gorduras ingeridas.",
+          "productID": "4455",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "BRL",
+            "price": "13.5",
+            "availability": "http://schema.org/InStock"
+          }
+        }
+      ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type":"Person",
+          "name":"Rafael",
+          "email":"rafael@gmail.com"
+          },
+        "datePublished": "2017-07-04",
+        "description": "Ótimo produto, superou minhas expectativas.",
+        "reviewRating": {
+          "@type": "Rating",
+          "bestRating": "5",
+          "ratingValue": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type":"Person",
+          "name":"Vicente",
+          "email":"vicente@gmail.com"
+          },
+        "datePublished": "2017-11-17",
+        "description": "Muito bom, amanheci no dia seginte novo, sem dor de barriga",
+        "reviewRating": {
+          "@type": "Rating",
+          "bestRating": "5",
+          "ratingValue": "4",
+          "worstRating": "1"
+        }
+      }
+    ]
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.4",
-    "reviewCount": "89"
-  },
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "119.99",
-    "priceValidUntil": "2020-11-05",
-    "itemCondition": "http://schema.org/UsedCondition",
-    "availability": "http://schema.org/InStock",
-    "seller": {
-      "@type": "Organization",
-      "name": "Executive Objects"
+  {
+      "@context": "http://schema.org/",
+      "@type" : "Drug",
+      "name" : "Boldo-da-terra",
+      "description":"O chá de boldo ajuda a desinchar a barriga e ainda combate os gases porque é um ótimo digestivo, mas é importante tomar o chá logo após o seu preparo e não adicionar açúcar, porque este fermenta e atrapalha a digestão. Assim, os principais benefícios do chá de boldo incluem: Melhora o funcionamento do fígado; Auxílio na digestão e no funcionamento do aparelho digestivo; Diminuição da azia; Diminuição dos efeitos das bebidas alcoólicas; Auxílio no tratamento de gastrite; Auxílio no tratamento de problemas na vesícula biliar; Alivio dos sintomas da intolerância alimentar; Diminuição dos gases; Atua como antioxidante, antifúngico e antibacteriano; Tem efeito calmante",
+      "administrationRoute": "oral",
+      "overdosage":"Os efeitos colaterais do boldo incluem aborto, vômitos, diarreia e problemas no sistema nervoso.",
+      "warning":"o boldo é contraindicado em caso de obstrução da vesícula biliar e durante a gravidez, especialmente nos primeiros 3 meses de gestação, porque ele pode provocar aborto ou causar malformações no feto.",
+      "activeIngredient": "lactona",
+      "maximumIntake":{
+        "@type":"MaximumDoseSchedule",
+        "doseValue": "20"
+        },
+      "pregnancyCategory":{
+        "@type":"DrugPregnancyCategory",
+        "description":"boldo é contraindicado durante a gravidez"
+      },
+      "drugClass":{
+        "@type":"DrugClass",
+        "description":"Boldo-da-terra"
+      }
     }
-  }
-}
-</script>
+]
