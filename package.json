@@ -1,0 +1,19 @@
+{
+  "name": "ervas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentecc/ervas.git"
+  },
+  "author": "vicente correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicentecc/ervas/issues"
+  },
+  "homepage": "https://github.com/vicentecc/ervas#readme"
+}
