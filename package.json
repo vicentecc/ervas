@@ -18,6 +18,8 @@
   "homepage": "https://github.com/vicentecc/ervas#readme",
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "jquery": "^1.9.1"
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "moment": "^2.24.0"
   }
 }
