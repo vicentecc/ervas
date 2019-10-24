@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/vicentecc/ervas/issues"
   },
-  "homepage": "https://github.com/vicentecc/ervas#readme"
+  "homepage": "https://github.com/vicentecc/ervas#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^1.9.1"
+  }
 }
